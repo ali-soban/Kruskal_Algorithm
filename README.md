@@ -6,11 +6,11 @@
 This project showcases the implementation of Kruskal’s Algorithm in both Python and C++ to efficiently find the Minimum Spanning Tree (MST) of a graph. It includes performance analysis and visualization for a comprehensive understanding of the algorithm’s behavior in different programming environments.
 
 
-#Problem Statement
+## **Problem Statement**
 
 The goal of this project is to find the Minimum Spanning Tree (MST) for a given graph using Kruskal’s Algorithm. The algorithm ensures an efficient solution with minimal cost and time complexity.
 
-#Real-World Applications
+## **Real-World Applications**
 
 Designing efficient cable or TV networks
 
@@ -18,9 +18,9 @@ Planning optimal tours
 
 Laying water distribution pipelines
 
-#Features of the Implementation
+## **Features of the Implementation**
 
-#Python Implementation
+### **Python Implementation**
 
 Sorting: Leverages an efficient Merge Sort algorithm for sorting edge weights.
 
@@ -32,7 +32,7 @@ Performance Analysis: Measures memory usage with tracemalloc and execution time 
 
 Graph Analysis: Visualizes performance data using matplotlib.
 
-#C++ Implementation
+### **C++ Implementation**
 
 Sorting: Implements Merge Sort for edge weight sorting.
 
@@ -40,25 +40,25 @@ Cycle Detection: Incorporates the disjoint set approach for efficient cycle mana
 
 Performance Measurement: Uses chrono for precise time and resource tracking.
 
-#Performance Comparison
+## **Performance Comparison**
 
 Graphs of various sizes were used to evaluate and compare the performance of Python and C++ implementations.
 
-#Key Insights
+## **Key Insights**
 
-#Python:
+### **Python:**
 
 Easier to implement and supports visualization tools.
 
 Slightly slower in execution compared to C++.
 
-#C++:
+### **C++:**
 
 Superior in terms of speed and resource efficiency.
 
 More complex to implement and lacks native visualization options.
 
-#Visualization
+### **Visualization**
 
 The Python implementation provides graphical representations of the MST for different graph sizes:
 
@@ -74,9 +74,9 @@ Original Graph
 
 Corresponding MST
 
-#Prerequisites
+## **Prerequisites**
 
-#Python
+### **Python**
 
 Install the following libraries:
 
@@ -88,7 +88,7 @@ tracemalloc
 
 Ensure you have Python 3.8 or higher installed.
 
-#C++
+### **C++**
 
 A modern C++ compiler (e.g., GCC or Clang).
 

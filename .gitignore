@@ -1,0 +1,16 @@
+# Ignore user-specific and generated files
+*.user
+*.suo
+*.ipch
+*.vcxproj.filters
+*.log
+
+# Ignore build outputs
+*.obj
+*.exe
+*.pdb
+*.dll
+
+# Ignore temporary and IDE-specific files
+.vs/
+*.db
